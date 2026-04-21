@@ -18,4 +18,4 @@ buying me a coffee! Your support helps me maintain and improve this project.
 *Every contribution, no matter how small, helps keep this project alive and growing! ❤️*<br><br><br>
 
 
-*Based on [Simple Calculator](hhttps://github.com/SimpleMobileTools/Simple-Calculator), [Fossify Calculator](https://github.com/FossifyOrg/Calculator).*
+*Based on [Simple Calculator](https://github.com/SimpleMobileTools/Simple-Calculator), [Fossify Calculator](https://github.com/FossifyOrg/Calculator).*
