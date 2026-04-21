@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+    <item
+        android:id="@+id/decimal_places"
+        android:icon="@drawable/ic_decimal_increase"
+        android:title="@string/decimal_places"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/swap_units"
+        android:icon="@drawable/ic_swap_vertical_vector"
+        android:title="@string/swap_units"
+        app:showAsAction="always" />
+</menu>

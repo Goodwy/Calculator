@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/unit_background"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/unit_type_size"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/smaller_margin"
+    android:background="@drawable/unit_type_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/normal_margin">
+
+    <ImageView
+        android:id="@+id/unit_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:importantForAccessibility="no"
+        android:padding="@dimen/normal_margin"
+        tools:src="@drawable/ic_thermostat_vector"
+        tools:tint="@color/color_primary" />
+
+    <TextView
+        android:id="@+id/unit_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:paddingBottom="@dimen/normal_margin"
+        tools:text="Temperature" />
+
+</LinearLayout>

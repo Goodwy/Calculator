@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.thanel.swipeactionview.SwipeActionView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/history_swipe_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:id="@+id/swipeRightIconHolder"
+        android:layout_width="@dimen/swipe_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical"
+        android:background="@color/primary"
+        tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:id="@+id/swipeRightIcon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft='@dimen/big_margin'
+            android:layout_alignParentLeft='true'
+            android:layout_centerVertical='true'
+            android:src="@drawable/ic_copy_vector"
+            android:contentDescription="@null"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/swipeLeftIconHolder"
+        android:layout_width="@dimen/swipe_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center_vertical"
+        android:background="@color/red_missed"
+        tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:id="@+id/swipeLeftIcon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginRight='@dimen/big_margin'
+            android:layout_alignParentRight='true'
+            android:layout_centerVertical='true'
+            android:src="@drawable/ic_delete_outline"
+            android:contentDescription="@null"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/history_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:paddingStart="@dimen/big_margin"
+        android:paddingTop="@dimen/normal_margin"
+        android:paddingEnd="@dimen/big_margin"
+        android:paddingBottom="@dimen/normal_margin"
+        tools:background="@color/theme_black_background_color">
+
+        <TextView
+            android:id="@+id/item_formula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/medium_margin"
+            android:alpha="0.6"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingStart="@dimen/small_margin"
+            android:paddingEnd="@dimen/small_margin"
+            android:textDirection="ltr"
+            android:textSize="@dimen/bigger_text_size"
+            tools:text="4 + 2" />
+
+        <TextView
+            android:id="@+id/item_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_formula"
+            android:layout_marginEnd="@dimen/medium_margin"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingStart="@dimen/small_margin"
+            android:paddingEnd="@dimen/small_margin"
+            android:textDirection="ltr"
+            android:textSize="@dimen/big_text_size"
+            tools:text="-42" />
+
+    </RelativeLayout>
+</me.thanel.swipeactionview.SwipeActionView>

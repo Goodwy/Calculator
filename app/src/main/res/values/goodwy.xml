@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings -->
+    <string name="decimal_places">Decimal places</string>
+    <string name="decimal_places_summary">Set the number of decimal places for conversion results</string>
+
+    <!-- Fuel Converter -->
+    <string name="unit_fuel">Fuel</string>
+    <string name="unit_fuel_mpg">Mile per Gallon</string>
+    <string name="unit_fuel_symbol_mpg">mpg</string>
+    <string name="unit_fuel_gallons_per_hundred_miles">Gallon per 100 Miles</string>
+    <string name="unit_fuel_symbol_gallons_per_hundred_miles">gal/100mi</string>
+    <string name="unit_fuel_km_per_liter">Kilometer per Liter</string>
+    <string name="unit_fuel_symbol_km_per_liter">km/L</string>
+    <string name="unit_fuel_l_per_100km">Liter per 100 Kilometers</string>
+    <string name="unit_fuel_symbol_l_per_100km">L/100km</string>
+
+    <!-- Speed Converter -->
+    <string name="unit_speed">Speed</string>
+    <string name="unit_speed_foot_per_second">Foot per Second</string>
+    <string name="unit_speed_symbol_foot_per_second">ft/s</string>
+    <string name="unit_speed_kilometer_per_hour">Kilometer per Hour</string>
+    <string name="unit_speed_symbol_kilometer_per_hour">km/h</string>
+    <string name="unit_speed_knot">Knot</string>
+    <string name="unit_speed_symbol_knot">kt</string>
+    <string name="unit_speed_meter_per_second">Meter per Second</string>
+    <string name="unit_speed_symbol_meter_per_second">m/s</string>
+    <string name="unit_speed_mile_per_hour">Mile per Hour</string>
+    <string name="unit_speed_symbol_mile_per_hour">mi/hr</string>
+
+    <!-- Data Converter -->
+    <string name="unit_data">Data</string>
+    <!-- Bit and Byte -->
+    <string name="unit_data_bit">Bit</string>
+    <string name="unit_data_symbol_bit">bit</string>
+    <string name="unit_data_byte">Byte</string>
+    <string name="unit_data_symbol_byte">byte</string>
+    <!-- Binary prefixes (IEC) -->
+    <string name="unit_data_kibibyte">Kibibyte</string>
+    <string name="unit_data_symbol_kibibyte">KiB</string>
+    <string name="unit_data_mebibyte">Mebibyte</string>
+    <string name="unit_data_symbol_mebibyte">MiB</string>
+    <string name="unit_data_gibibyte">Gibibyte</string>
+    <string name="unit_data_symbol_gibibyte">GiB</string>
+    <string name="unit_data_tebibyte">Tebibyte</string>
+    <string name="unit_data_symbol_tebibyte">TiB</string>
+    <string name="unit_data_pebibyte">Pebibyte</string>
+    <string name="unit_data_symbol_pebibyte">PiB</string>
+    <!-- Decimal prefixes (SI) -->
+    <string name="unit_data_kilobyte">Kilobyte</string>
+    <string name="unit_data_symbol_kilobyte">kB</string>
+    <string name="unit_data_megabyte">Megabyte</string>
+    <string name="unit_data_symbol_megabyte">MB</string>
+    <string name="unit_data_gigabyte">Gigabyte</string>
+    <string name="unit_data_symbol_gigabyte">GB</string>
+    <string name="unit_data_terabyte">Terabyte</string>
+    <string name="unit_data_symbol_terabyte">TB</string>
+    <string name="unit_data_petabyte">Petabyte</string>
+    <string name="unit_data_symbol_petabyte">PB</string>
+</resources>

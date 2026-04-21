@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings -->
+    <string name="decimal_places">Десятичные знаки</string>
+
+    <!-- Fuel Converter -->
+    <string name="unit_fuel">Топливо</string>
+    <string name="unit_fuel_mpg">Миля на галлон</string>
+    <string name="unit_fuel_symbol_mpg">ми/гал</string>
+    <string name="unit_fuel_gallons_per_hundred_miles">Галлон на 100 миль</string>
+    <string name="unit_fuel_symbol_gallons_per_hundred_miles">гал/100 миль</string>
+    <string name="unit_fuel_km_per_liter">Километр на литр</string>
+    <string name="unit_fuel_symbol_km_per_liter">км/л</string>
+    <string name="unit_fuel_l_per_100km">Литр на 100 километров</string>
+    <string name="unit_fuel_symbol_l_per_100km">л/100 км</string>
+
+    <!-- Speed Converter -->
+    <string name="unit_speed">Скорость</string>
+    <string name="unit_speed_foot_per_second">Фут в секунду</string>
+    <string name="unit_speed_symbol_foot_per_second">фт/с</string>
+    <string name="unit_speed_kilometer_per_hour">Километр в час</string>
+    <string name="unit_speed_symbol_kilometer_per_hour">км/ч</string>
+    <string name="unit_speed_knot">Узел</string>
+    <string name="unit_speed_symbol_knot">уз</string>
+    <string name="unit_speed_meter_per_second">Метр в секунду</string>
+    <string name="unit_speed_symbol_meter_per_second">м/с</string>
+    <string name="unit_speed_mile_per_hour">Миля в час</string>
+    <string name="unit_speed_symbol_mile_per_hour">ми/ч</string>
+
+    <!-- Data Converter -->
+    <string name="unit_data">Данные</string>
+    <!-- Bit and Byte -->
+    <string name="unit_data_bit">Бит</string>
+    <string name="unit_data_symbol_bit">б</string>
+    <string name="unit_data_byte">Байт</string>
+    <string name="unit_data_symbol_byte">Б</string>
+    <!-- Binary prefixes (IEC) -->
+    <string name="unit_data_kibibyte">Кибибайт</string>
+    <string name="unit_data_symbol_kibibyte">КиБ</string>
+    <string name="unit_data_mebibyte">Мебибайт</string>
+    <string name="unit_data_symbol_mebibyte">МиБ</string>
+    <string name="unit_data_gibibyte">Гибибайт</string>
+    <string name="unit_data_symbol_gibibyte">ГиБ</string>
+    <string name="unit_data_tebibyte">Тебибайт</string>
+    <string name="unit_data_symbol_tebibyte">ТиБ</string>
+    <string name="unit_data_pebibyte">Пебибайт</string>
+    <string name="unit_data_symbol_pebibyte">ПиБ</string>
+    <!-- Decimal prefixes (SI) -->
+    <string name="unit_data_kilobyte">Килобайт</string>
+    <string name="unit_data_symbol_kilobyte">КБ</string>
+    <string name="unit_data_megabyte">Мегабайт</string>
+    <string name="unit_data_symbol_megabyte">МБ</string>
+    <string name="unit_data_gigabyte">Гигабайт</string>
+    <string name="unit_data_symbol_gigabyte">ГБ</string>
+    <string name="unit_data_terabyte">Терабайт</string>
+    <string name="unit_data_symbol_terabyte">ТБ</string>
+    <string name="unit_data_petabyte">Петабайт</string>
+    <string name="unit_data_symbol_petabyte">ПБ</string>
+</resources>
